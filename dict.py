@@ -1,0 +1,20 @@
+a = {"aaa": 'Disha', 'www': 'google.com', 'number': 0.2}
+print(a)
+a.update({'key': 789456})
+print(a)
+a.pop('key')
+print(a)
+a.popitem()
+print(a)
+print(a['www'])
+print(a.get('rrr', 'Get lost'))
+print(a.keys())
+print(a.values())
+print(a.items())
+print(list(a.keys()))
+print(list(a.values()))
+for data in a:
+    print(data, a[data])
+for x,y in a.items():
+    print(x)
+    print(y)
